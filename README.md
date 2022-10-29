@@ -6,22 +6,21 @@ not knowing where to go for food. Using the app is simple. You can change how fa
 simply press the Randomize button to get a restaurant suggestion. To update your location and radius press the Update Location button. The app will show you a restaurant as well
 as the address to the restaurant.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
-# Development Environment
+## Development Environment
 Tools Used:
 * Visual Studio
 * .NET MAUI
 * C#
 
-# Useful Websites
+## Useful Websites
 
 * [Microsoft .NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 * [Stackoverflow](https://stackoverflow.com/)
 
-## Future Work
+### Future Work
 
 * Properly Implement Radius Feature
 * Get API Call Working on Android Version
