@@ -36,14 +36,14 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me"
+                Text="Randomize"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"/>
             
             <Button
                 x:Name="LocationUpdate"
-                Text="UpdateLocation"
+                Text="Update Location"
                 SemanticProperties.Hint="Updates your current location"
                 Clicked="UpdateLocation"
                 HorizontalOptions="Fill"/>
