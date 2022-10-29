@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restaurant_Randomizer.MainPage"
+             Title="">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Radius">
+            <MenuFlyoutItem Text="10 Miles" Clicked="RadiusTo10"/>
+            <MenuFlyoutItem Text="20 Miles" Clicked="RadiusTo20"/>
+            <MenuFlyoutItem Text="40 Miles" Clicked="RadiusTo40"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Current Radius: 10" x:Name="CurrentRadius"></MenuBarItem>
+    </ContentPage.MenuBarItems>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0">
+
+            <Label
+                x:Name="RestaurantLabel"
+                Text="Click to get a random restaurant suggestion!"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Restaurant Suggestion"
+                FontSize="24"
+                HorizontalOptions="Center"
+                Padding="0, 50"/>
+            
+            <Label
+                x:Name="RestaurantAddress"
+                Text="Restaurant's Address"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Restaurant Address"
+                FontSize="20"
+                HorizontalOptions="Center"
+                Padding="0, 50"/>
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill"/>
+            
+            <Button
+                x:Name="LocationUpdate"
+                Text="UpdateLocation"
+                SemanticProperties.Hint="Updates your current location"
+                Clicked="UpdateLocation"
+                HorizontalOptions="Fill"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
