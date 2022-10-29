@@ -7,7 +7,7 @@ simply press the Randomize button to get a restaurant suggestion. To update your
 as the address to the restaurant.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/VZ9cB9Ki3TY)
 
 ## Development Environment
 Tools Used:
